@@ -7,6 +7,8 @@ function display_menu {
     echo "2. Pair and Trust a device"
     echo "3. Connect to a device"
     echo "4. Hard Refresh Bluetooth"
+    echo "5. Bluetoothctl"
+    echo "6. Help"
     echo "0. Exit"
     echo -n "Enter your choice: "
 }
@@ -56,7 +58,12 @@ while true; do
         4)
             hard_refresh
             ;;
-
+        5)
+            sudo bluetoothctl
+            ;;
+        6)
+        ./help.sh
+        ;;
         0)
             echo "Exiting..."
             exit 0
