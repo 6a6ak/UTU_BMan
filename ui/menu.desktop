@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=BlueMan
+Exec=/home/babak/git/UTU_BMan/ui/menu.py
+Icon=/home/babak/git/UTU_BMan/ui/icon.png
+Comment=bluetooth manager 
+Categories=Utility;
+Terminal=false
